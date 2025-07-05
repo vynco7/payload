@@ -1,4 +1,4 @@
-# Payload Engine - Ultimate Auto Attack Tool 😈
+# Payload Engine - Ultimate Auto Attack Tool 
 
 ## 🚀 Description
 This tool automatically tests a given URL with thousands of payloads for:
@@ -38,4 +38,4 @@ Using it without permission may be illegal.
 
 ---
 
-Created by 💀 VIP Mode Setan 💀
+Created by vynco
